@@ -1,0 +1,113 @@
+page{
+  background: #f5f5f5;
+}
+.container{
+    padding:0rpx;
+    margin:0rpx;
+}
+.top{
+  display: flex;
+  flex-direction: column;
+  padding: 30rpx;
+  align-items: center;
+  background: #f9f027;
+  width: 100%;
+
+
+}
+.head.msg{
+  display: inline-block;
+  height: 180rpx;
+  float: left;
+}
+.msg{
+  width: 300rpx;
+  margin-left: 5%;
+}
+
+.top text{
+  display: inline-block;
+  float: right;
+}
+.one{
+    font-size: 36rpx;
+    color: #333;
+    width: 100%;
+    height: 40rpx;
+    line-height: 40rpx;
+}
+.two{
+    padding:16rpx 0 10rpx;
+    font-size: 28rpx;
+    color: #666;
+}
+.three{
+    font-size: 32rpx;
+    color: #333;
+    height: 44rpx;
+    line-height: 44rpx;
+}
+.title{
+    height: 84rpx;
+    line-height: 84rpx;
+    font-size: 28rpx;
+    color: #666;
+    border-bottom: 2rpx solid #e6e6e6;
+}
+.myBox-order{
+  width: 93.75%;
+  padding:0 3.125%;
+  background: #fff;
+  margin-top: 12rpx;
+  border-bottom: 2rpx solid #e6e6e6;
+}
+.classify{
+  width: 100%;
+}
+.bigblock{
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  padding: 36rpx 0;
+}
+
+.bigblock view{
+  font-size: 28rpx;
+  color: #f10215;
+  padding-top: 32rrpx;
+  height: 32rpx;
+  line-height: 32rpx;
+}
+.bigblock image{
+  width: 52rpx;
+  height: 52rpx;
+}
+.myBox-list{
+  width: 93.75%;
+  margin-top: 12rpx;
+  padding: 0 3.125%;
+  background-color: #fff;
+  border-bottom: 2rpx solid #e6e6e6;
+}
+.myBox-item{
+  height: 96rpx;
+  line-height: 96rpx;
+  font-size: 28rpx;
+  color: #333;
+  border-bottom: 2rpx solid #e6e6e6;
+  padding:0 10rpx 0 6rpx;
+}
+.noneb{
+  border: none;
+}
+.user-avator{
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+
+}
+.user-name{
+display: inline-block;
+color: black
+}

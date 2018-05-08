@@ -1,0 +1,43 @@
+<!-- <view class="container">
+    <block wx:for="{{goods}}">
+        <view class="brand_item">
+            <navigator url="../list/index?brand={{item.id}}&typeid={{item.typeid}}">
+                <image src="{{item.pic}}" class="pic"></image>
+                <view class="right_cont">
+                    <image src="{{item.logo}}" class="logo"></image>
+                    <text class="name">{{item.name}}</text>
+                    <text class="brief">{{item.brief}}</text>
+                    <text class="price">￥{{item.minprice}}元/件起</text>
+                </view>
+            </navigator>
+        </view>
+    </block>
+</view> -->
+
+
+<!--分隔符  -->
+
+
+<view class='goodsBox' wx:for-items="{{goods}}" wx:key="{{index}}" bindtap="toDetailsTap" data-id="{{item.id}}">
+<view class='goodsContainer'>
+
+    <view class="container">
+    
+      <image src="{{item.pic}}_m" class="img" mode="aspectFill" lazy-load='true'></image>
+
+      <view class="right">
+        <view class='title'>{{item.name}}</view>
+        <view class='price_min'>一口价:{{item.minPrice}}元</view>
+        <view wx:if="{{item.originalPrice && item.originalPrice > 0}}" class="good_min" style='color:#aaa;text-decoration:line-through'>¥ {{item.originalPrice}}</view>
+      </view>
+    
+    
+    </view>
+
+ </view>
+
+
+
+
+      
+</view>

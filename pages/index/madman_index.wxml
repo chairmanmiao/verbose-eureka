@@ -1,0 +1,77 @@
+<!--banner图-->
+<view class="poster">
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoPlay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{imgurls}}">
+            <swiper-item>
+                <image class="swiper-image" src="{{item}}" mode='aspectFill'></image>
+            </swiper-item>
+        </block>
+    </swiper>
+</view>
+<!--导航栏-->
+<view class="top_nav">
+    <view class="top_nav_item" bindtap="nav_1">
+        <image src="../../image/dabaojian_1.png" mode="aspectFill"></image>
+        <text>保健品</text>
+
+    </view>
+    <view class="top_nav_item" bindtap="nav_2">
+        <image src="../../image/yaowan_1.png" mode="aspectFill"></image>
+        <text>药！</text>
+
+    </view>
+    <view class="top_nav_item" bindtap="nav_3">
+        <image src="../../image/somethingelse.png"mode="aspectFill"></image>
+        <text>待定</text>
+
+    </view>
+    <view class="top_nav_item" bindtap="nav_4">
+        <image src="../../image/fruit_1.png" mode="aspectFill"></image>
+        <text>水果</text>
+
+    </view>
+    <view class="top_nav_item" bindtap="nav_5">
+        <image src="../../image/fenlei.png" mode="aspectFill"></image>
+        <text>分类商品</text>
+
+    </view>
+    <view class="top_nav_item" bindtap="nav_6">
+        <image src="../../image/aboutUs_1.png" mode="aspectFill"></image>
+        <text>关于我们</text>
+
+    </view>
+
+
+</view>
+
+
+
+
+<!--分隔符-->
+<view class="hover"></view>
+
+<!-- 幸运转盘模块-->
+
+<view class='roller'>
+    <navigator url='../roller/roller'>
+        <image src='../../image/roller.jpg' style='aspectFill'></image>
+    </navigator>
+</view>
+
+<!-- goods container-->
+<view class='goodsContainer'>
+    <view class='goodsBox' wx:for-items="{{goods}}" wx:key="{{index}}" bindtap="toDetailsTap" data-id="{{item.id}}">
+
+        <view class='img-box'>
+            <image src="{{item.pic}}_m" class="image" mode="aspectFill" lazy-load='true'></image>
+        </view>
+
+        <view class='goods-title'>{{item.name}}</view>
+
+        <view class="abc">
+            <view class='good-price'>一口价:{{item.minPrice}}元</view>
+
+            <view wx:if="{{item.originalPrice && item.originalPrice > 0}}" class="good-price" style='color:#aaa;text-decoration:line-through'>¥ {{item.originalPrice}}</view>
+        </view>
+    </view>
+</view>

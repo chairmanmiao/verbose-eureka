@@ -1,0 +1,58 @@
+{
+  "pages":[
+    "pages/index/madman_index",
+    "pages/madman/cart",
+    "pages/madman/user",
+    "pages/madman/categ",
+    "pages/type/categ",
+    "pages/order/order",
+    "pages/address/addAddress",
+    "pages/roller/roller",
+    "pages/about/aboutUs",
+    "pages/about/board",
+    "pages/detail/detail",
+    "pages/template-cart/template-cart",
+    "pages/to-pay-order/index",
+    "pages/brands/index"
+    
+  ],
+  "window":{
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#D73E3E",
+    "navigationBarTitleText": "Madman爆品商城",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+    "color":"#333",
+    "selectedColor":"#d24a58",
+    "backgroundColor":"#fff",
+    "borderStyle":"black",
+    "list":[
+      
+      {
+        "pagePath":"pages/index/madman_index",
+        "text":"首页",
+        "iconPath":"image/main_on.png",
+        "selectedIconPath":"image/main_off.png"
+      },
+      {
+        "pagePath":"pages/madman/categ",
+        "text":"全部分类",
+        "iconPath":"image/categ_on.png",
+        "selectedIconPath":"image/categ_off.png"
+      },
+      {
+        "pagePath":"pages/madman/cart",
+        "text":"购物车",
+        "iconPath":"image/cart_on.png",
+        "selectedIconPath":"image/cart_off.png"
+      },
+      {
+        "pagePath":"pages/madman/user",
+        "text":"用户中心",
+        "iconPath":"image/user_on.png",
+        "selectedIconPath":"image/user_off.png"
+      }
+    ]
+  }
+}

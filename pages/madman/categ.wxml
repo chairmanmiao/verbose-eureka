@@ -1,0 +1,50 @@
+<view class="content">
+    <view class='left'>
+        <view class="{{flag==0?'select':'normal'}}" id="0" bindtap='switchNav'>水果蔬菜</view>
+        <view class="{{flag==1?'select':'normal'}}" id="1" bindtap='switchNav'>肉禽蛋奶</view>
+        <view class="{{flag==2?'select':'normal'}}" id="2" bindtap='switchNav'>休闲食品</view>
+        <view class="{{flag==3?'select':'normal'}}" id="3" bindtap='switchNav'>冷热速食</view>
+    </view>
+    <view class='nav_right'>
+        <view class='nav_right_items'>
+            <swiper current='{{currentTab}}' style='height:500px;'>
+                <swiper-item>
+                    <navigator url='../brands/index'>
+                    <view class='yangli_1' bindtap='yangli1'>
+                    
+                    <image src='../../image/bjp.jpg'/>
+
+                    <text>样例1</text>
+                    </view>
+                    </navigator>
+
+                    <navigator url='../brands/index'>
+                    <view class='yangli_1' bindtap='yangli1'>
+                    
+                    <image src='../../image/bjp.jpg'/>
+
+                    <text>样例2</text>
+                    </view>
+                    </navigator>
+                </swiper-item>
+                <swiper-item>
+                    暂无数据
+                </swiper-item>
+                <swiper-item>
+                    <navigator url='../brands/index'>
+                    <view class='yangli_1'>
+                    
+                    <image src='../../image/wazi.png'/>
+
+                    <text>样例3</text>
+                    </view>
+                    </navigator>
+                </swiper-item>
+                <swiper-item>
+                    暂无数据
+                </swiper-item>
+
+            </swiper>
+        </view>
+    </view>
+</view>

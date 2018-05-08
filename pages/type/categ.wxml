@@ -1,0 +1,130 @@
+<!--   <view class="content">
+  <view class="line"></view>
+    <view class="item"> 
+<!--A-->
+<!-- <view class="title">保健品</view> -->
+<!--分隔符-->
+<!-- <view class="hover"></view>
+      <view class="navs">
+      
+          <view class="nav">
+          <view><image src="../../image/15.png" style="width:38px;height:38px;"></image></view>
+          <view>中老年</view>
+          </view>
+
+          <view class="nav">
+          <view><image src="../../image/16.png" style="width:38px;height:38px;"></image></view>
+          <view>青少年</view>
+          </view>
+
+          <view class="nav">
+          <view><image src="../../image/03.png" style="width:38px;height:38px;"></image></view>
+          <view>亚健康</view>
+          </view>
+
+          <view class="nav">
+          <view><image src="../../image/17.png" style="width:38px;height:38px;"></image></view>
+          <view>化妆品</view>
+          </view>
+
+      </view>
+    </view> -->
+
+      <!--B-->
+<!-- <view class="line"></view>
+      <view class="item">
+<view class="title">老家特产</view> -->
+    <!--分隔符-->
+<!-- <view class="hover"></view>
+
+        <view class="navs">
+      
+            <view class="nav">
+            <view><image src="../../image/13.png" style="width:38px;height:38px;"></image></view>
+            <view>老家特产</view>
+            </view>
+
+            <view class="nav">
+            <view><image src="../../image/08.png" style="width:38px;height:38px;"></image></view>
+            <view>生鲜</view>
+            </view>
+
+            <view class="nav">
+            <view><image src="../../image/11.png" style="width:38px;height:38px;"></image></view>
+            <view>蔬菜</view>
+            </view>
+
+            <view class="nav">
+            <view><image src="../../image/09.png" style="width:38px;height:38px;"></image></view>
+            <view>水果</view>
+            </view>
+
+        </view>
+      </view> -->
+        <!--C-->
+      <!-- <view class="item">
+<view class="title">粮油干货</view> -->
+<!--分隔符-->
+<!-- <view class="hover"></view>
+
+        <view class="navs">
+            
+              <view class="nav">
+              <view><image src="../../image/10.png" style="width:38px;height:38px;"></image></view>
+              <view>粮</view>
+              </view>
+
+              <view class="nav">
+              <view><image src="../../image/14.png" style="width:38px;height:38px;"></image></view>
+              <view>油</view>
+              </view>
+
+              <view class="nav">
+              <view><image src="../../image/07.png" style="width:38px;height:38px;"></image></view>
+              <view>干</view>
+              </view>
+
+              <view class="nav">
+              <view><image src="../../image/13.png" style="width:38px;height:38px;"></image></view>
+              <view>货</view>
+              </view>
+        
+        </view>
+      
+      </view>
+  
+
+
+
+   
+  
+  <view class="line"></view>
+</view>    -->
+
+<view class="content">
+  <view class='left'>
+    <view class="{{flag==0?'select':'normal'}}" id = "0"         bindtap='switchNav'>水果蔬菜</view>
+    <view class="{{flag==1?'select':'normal'}}" id = "1"         bindtap='switchNav'>肉禽蛋奶</view>
+    <view class="{{flag==2?'select':'normal'}}" id = "2"         bindtap='switchNav'>休闲食品</view>
+    <view class="{{flag==3?'select':'normal'}}" id = "3"         bindtap='switchNav'>冷热速食</view>
+  </view>
+  <view class='right'>
+    <view class='cate'>
+      <swiper current='{{currentTab}}' style='height:500px;'>
+        <swiper-item>
+        iojsiaojsad
+        </swiper-item>
+        <swiper-item>
+        iojsiaojsa
+        </swiper-item>
+        <swiper-item>
+        iojsiaojs
+        </swiper-item>
+        <swiper-item>
+        iojsiaoj
+        </swiper-item>
+         
+      </swiper>
+    </view>
+  </view>
+</view>

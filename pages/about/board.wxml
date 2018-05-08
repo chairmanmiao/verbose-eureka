@@ -1,0 +1,22 @@
+<scroll-view class='scroll-view' enable-back-to-top='true' bindscrolltoupper='topscroll'>
+<!-- container-->
+  <view class='container'>
+  <!--文本框-->
+      <view class='text'>
+          <text class='content'>什么什么标题1</text>
+            <text class='time'>2017-12-22</text>
+      </view>
+      <view class='text'>
+          <text class='content'>什么什么标题1</text>
+            <text class='time'>2017-12-23</text>
+      </view>
+      <view class='text'>
+          <text class='content'>什么什么标题1</text>
+            <text class='time'>2017-12-24</text>
+      </view>
+      <view class='text'>
+          <text class='content'>什么什么标题1</text>
+            <text class='time'>2017-12-25</text>
+      </view>
+  </view>
+</scroll-view>

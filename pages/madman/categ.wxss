@@ -1,0 +1,96 @@
+ /* pages/madman/categ.wxss 
+
+.content{
+     font-family: "Microsoft YaHei";
+     background-color: #F0F0F0;
+}
+.hover{
+    height: 1px;
+    background-color: #cccccc;
+    opacity: 0.2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.navs{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 13px;
+    margin-bottom:10px;
+    padding-top:10px;
+}
+.nav{
+    margin: 0 auto;
+    width:70px;
+}
+.line{
+    height: 10px;
+}
+.item{
+    border: 1px solid #cccccc;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+} */
+
+
+
+.content{
+  display: flex;
+  flex-direction: row;
+}
+.left{
+  width: 25%;
+  font-size: 15px;
+  height: 600px;
+  background-color: "#F4F4F4";
+
+}
+.left view{
+  text-align: center;
+  height: 45px;
+  line-height: 45px;
+
+}
+.select{
+  background-color: "#ffffff";
+  border-left: 5px;
+  font-weight: bold;
+
+}
+.normal{
+  background-color: "#F4F4F4";
+  border-bottom: 1px;
+
+}
+.nav_right{
+  position: absolute;
+  top: 0;
+  right: 0;
+  flex: 1;
+  width: 75%;
+  height: 100%;
+  padding: 10px;
+  background: #fff;
+  box-sizing: border-box;
+}
+.nav_right .nav_right_items{
+  float: left;
+  width: 33.33%;
+  height: 80px;
+  text-align: center;
+}
+.nav_right .nav_right_items image{
+  width: 50px;
+  height: 30px;
+}
+.nav_right .nav_right_items text{
+  display: block;
+  margin-top: 5px;
+  font-size: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

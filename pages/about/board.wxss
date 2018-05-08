@@ -1,0 +1,21 @@
+.container{
+background-color: grey;
+}
+.text-:first-child{
+
+}
+text{
+    background-color: #fff;
+    border-bottom: 2rpx, solid #e6e6e6;
+    padding:6rpx 3.125% 32rpx;
+
+}
+.content{
+    height: 84rpx;
+    line-height: 84rpx;
+    font-size: 32rpx;
+}
+.time{
+    font-size: 24rpx;
+    color: #999;
+}

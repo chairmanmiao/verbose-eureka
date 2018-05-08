@@ -1,0 +1,45 @@
+<view  class="container">
+  
+  <view class="top">
+    <view class="head"><image class='user-avator' src="{{userInfo.avatarUrl}}"></image>
+      <view class='user-name'>
+      <text>{{userInfo.nickName}}</text>
+      </view>
+    </view>
+  </view>
+
+   <view class="myBox-order">
+		<view class='title'> <text>我的订单</text> </view>
+    <view class='classify'>
+      <view class='bigblock' bindtap="isClick" data-type="0">
+        <image src="../../image/wait01.png" alt=""></image>
+        <view>待付款</view>
+      </view>
+      <view class='bigblock' bindtap="isClick" data-type="1">
+        <image src="../../image/wait02.png" alt=""></image>
+        <view >待发货</view>
+      </view>
+      <view class='bigblock' bindtap="isClick" data-type="2">
+        <image src="../../image/wait03.png" alt=""></image>
+        <view>待收货</view>
+      </view>
+      <view class='bigblock' bindtap="isClick" data-type="3">
+        <image src="../../image/wait04.png" alt=""></image>
+        <view>退货</view>
+      </view>
+      <view class='bigblock' bindtap="isClick" data-type="4">
+        <image src="../../image/wait05.png" alt=""></image>
+        <view>已完成</view>
+      </view>
+    </view>
+	</view>
+
+  <view class='addres-mangerment'>
+    <navigator url="../address/addAddress">
+      <span class="address-text">地址管理</span>
+      <span class="fl_r c9 font_12 l_h20" hover-class="none"> ></span>
+    </navigator>
+  </view>
+
+ 
+</view>
